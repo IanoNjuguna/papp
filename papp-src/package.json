@@ -1,0 +1,27 @@
+{
+  "name": "papp-src",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A comprehensive full-stack Polkadot development template featuring Hardhat for Solidity smart contract development and modern frontend applications with Wagmi integration.",
+  "workspaces": [
+    "hardhat",
+    "dapp-vue"
+  ],
+  "scripts": {
+    "compile": "npm run compile -w hardhat",
+    "lint": "npm run lint --workspaces --if-present",
+    "lint:hardhat": "npm run lint -w hardhat",
+    "lint:dapp-vue": "npm run lint -w dapp-vue",
+    "build:dapp-vue": "npm run build -w dapp-vue",
+    "dev:dapp-vue": "npm run dev -w dapp-vue",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "overrides": {
+    "lru-cache": "^11.1.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
