@@ -1,9 +1,9 @@
 {
   "name": "hello-hardhat-polkadot-ts",
   "version": "1.0.0",
-  "description": "",
+  "description": "Smart contract backend for the Message Board.",
   "author": "",
-  "license": "ISC",
+  "license": "CC-BY-NC-SA-4.0",
   "keywords": [],
   "main": "index.js",
   "scripts": {

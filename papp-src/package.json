@@ -2,7 +2,7 @@
   "name": "papp-src",
   "version": "1.0.0",
   "private": true,
-  "description": "A comprehensive full-stack Polkadot development template featuring Hardhat for Solidity smart contract development and modern frontend applications with Wagmi integration.",
+  "description": "A full-stack Web3 development template.",
   "workspaces": [
     "hardhat",
     "dapp-vue"
@@ -23,5 +23,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "MIT"
+  "license": "CC-BY-NC-SA-4.0"
 }

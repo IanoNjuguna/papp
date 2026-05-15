@@ -1,19 +1,33 @@
 # papp
 
-a Polkadot dApp built using create-dot-app scaffolding.
+A decentralized Message Board.
 
-## Get Started
+## Project Structure
 
+- `papp-src/` - The main workspace containing the Hardhat contracts and frontends.
+
+### Quick Start
+
+```bash
+cd papp-src
+cd dapp-vue
+npm run dev
 ```
-$ cd papp-src
 
-$ cd dapp-vue
+## Potential Extensions
 
-$ npm run dev
+This scaffolding (specifically the Message Board architecture) is ideal for building:
 
+- **Decentralized Social Feeds & Microblogging**
+- **Review & Rating Systems**
+- **Digital Guestbooks (Proof of Attendance)**
+- **Uncensorable Notice Boards**
 
 ## References
 
-1. https://www.createdot.app/
+1. [create.dot.app](https://www.createdot.app/)
+2. [create-dot-app GitHub](https://github.com/preschian/create-dot-app)
 
-2. https://github.com/preschian/create-dot-app
+## License
+
+[cc-nc-sa-4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
